@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strike Pro - Trading Esportivo</title>
+  <style>
+    :root {
+      --cor-primaria: #000000;
+      --cor-secundaria: #007bff;
+      --cor-fundo: #111;
+      --cor-texto: #f2f2f2;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--cor-fundo);
+      color: var(--cor-texto);
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: var(--cor-primaria);
+    }
+    header img {
+      width: 100px;
+      height: auto;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 1rem 0 0.5rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .strikezinho {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0;
+    }
+    .strikezinho img {
+      width: 200px;
+      border-radius: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      background-color: var(--cor-secundaria);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 0.5rem;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #000;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/strikepro_logo.png" alt="Logo Strike Pro">
+    <h1>Strike Pro</h1>
+    <p>Trading Esportivo com Estratégia e Diversão</p>
+  </header>
+
+  <section>
+    <h2>Quem Somos</h2>
+    <p>Somos uma equipe apaixonada por futebol e análise. Com a ajuda do nosso mascote Strikezinho, oferecemos conteúdos, estratégias, planilhas e dicas para traders esportivos que querem lucrar com inteligência e diversão.</p>
+  </section>
+
+  <section>
+    <h2>Conheça o Strikezinho!</h2>
+    <div class="strikezinho">
+      <img src="/mnt/data/ChatGPT Image 6 de jul. de 2025, 18_41_00.png" alt="Strikezinho">
+    </div>
+  </section>
+
+  <section>
+    <h2>O que Oferecemos</h2>
+    <ul>
+      <li>📈 Planilhas inteligentes de análise</li>
+      <li>📊 Estratégias de escanteios e gols</li>
+      <li>🎥 Conteúdo divertido com o Strikezinho no TikTok</li>
+      <li>⚽ Sinais e análises ao vivo (em breve)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Nos Acompanhe</h2>
+    <p>Em breve nas redes sociais! Fique ligado para seguir o Strikezinho.</p>
+    <a href="#" class="btn">Entrar em Contato</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Strike Pro. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
