@@ -23,20 +23,21 @@
       background-color: var(--cor-primaria);
     }
     header img {
-      width: 100px;
+      width: 200px;
       height: auto;
-      border: 4px solid var(--cor-secundaria);
-      border-radius: 0.5rem;
-      padding: 0.5rem;
-      background-color: #ffffff; /* Fundo branco atrás da logo */
+      border: 6px solid var(--cor-secundaria);
+      border-radius: 0.75rem;
+      padding: 0.75rem;
+      background-color: #ffffff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     }
     h1 {
-      font-size: 2rem;
+      font-size: 3rem;
       margin: 1rem 0 0.5rem;
     }
     section {
       padding: 2rem 1rem;
-      max-width: 800px;
+      max-width: 1000px;
       margin: 0 auto;
     }
     .strikezinho {
@@ -60,6 +61,30 @@
     }
     .btn:hover {
       background-color: #0056b3;
+    }
+    .oferecemos-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .oferecemos-texto {
+      flex: 1 1 300px;
+    }
+    .oferecemos-imagem {
+      flex: 1 1 300px;
+      text-align: center;
+    }
+    .oferecemos-imagem img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .oferecemos-imagem img:hover {
+      transform: scale(1.05);
     }
     footer {
       text-align: center;
@@ -90,12 +115,21 @@
 
   <section>
     <h2>O que Oferecemos</h2>
-    <ul>
-      <li>📈 Planilhas inteligentes de análise</li>
-      <li>📊 Estratégias de escanteios e gols</li>
-      <li>🎥 Conteúdo divertido com o Strikezinho no TikTok</li>
-      <li>⚽ Sinais e análises ao vivo (em breve)</li>
-    </ul>
+    <div class="oferecemos-container">
+      <div class="oferecemos-texto">
+        <ul>
+          <li>📈 Planilhas inteligentes de análise</li>
+          <li>📊 Estratégias de escanteios e gols</li>
+          <li>🎥 Conteúdo divertido com o Strikezinho no TikTok</li>
+          <li>⚽ Sinais e análises ao vivo (em breve)</li>
+        </ul>
+      </div>
+      <div class="oferecemos-imagem">
+        <a href="painel planilha1.png" target="_blank">
+          <img src="painel planilha1.png" alt="Painel de Análise da Planilha Strike Pro">
+        </a>
+      </div>
+    </div>
   </section>
 
   <section>
