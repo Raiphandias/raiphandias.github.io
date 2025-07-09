@@ -82,9 +82,17 @@
       border-radius: 0.5rem;
       cursor: pointer;
       transition: transform 0.3s;
+      border: 2px solid var(--cor-secundaria);
     }
     .oferecemos-imagem img:hover {
       transform: scale(1.05);
+    }
+    .oferecemos-imagem a::before {
+      content: '\1F4C8\00a0'; /* 📈 ícone gráfico */
+      font-size: 1.2rem;
+      color: var(--cor-secundaria);
+      display: inline-block;
+      margin-right: 0.25rem;
     }
     footer {
       text-align: center;
@@ -126,7 +134,7 @@
       </div>
       <div class="oferecemos-imagem">
         <a href="painel-planilha1.png" target="_blank">
-          <img src="painel planilha1.png" alt="Painel de Análise da Planilha Strike Pro">
+          <img src="painel-planilha1.png" alt="Painel de Análise da Planilha Strike Pro">
         </a>
       </div>
     </div>
